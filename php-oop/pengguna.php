@@ -18,6 +18,9 @@ class Pengguna {
     public function perkenalan ($nama) {
         $this->nama = $nama;
         echo "Perkenalan nama saya" . $this->nama . "<br>";
+    }
 
+    public function getNama(){
+        return $this->nama;
     }
 }
